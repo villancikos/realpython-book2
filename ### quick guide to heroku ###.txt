@@ -1,0 +1,35 @@
+### quick guide to heroku ###
+heroku login -- enter credentials
+
+activate virtualenv
+
+use pip freeze > requirements.txt -- so heroku can understand
+what your app needs
+
+create a Procfile
+add code: web: python run.py and save it like Procfile no extension
+
+update run.py (this added the port)
+
+git init
+git add .
+git commit -am "initial"
+
+heroku create
+
+git push heroku master
+heroku ps:scale web=1
+
+heroku ps <-- see if app is serving
+
+heroku open <-- launches browser with app
+
+herokus logs <-- shows logs
+
+### in case of trouble ###
+remember to make changes if log throws errors and then
+add changes and commit them.
+and then heroku push too.
+
+Also watchout for errors on rsa key
+

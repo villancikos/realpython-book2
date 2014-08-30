@@ -1,0 +1,30 @@
+{% extends "template.html" %}
+{% block content %}
+<h3><a href="{{ url_for('tasks.tasks') }}">Back to Tasks</a></h3>
+<div class="lead">Current Task</div>
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th>Task Name</th>
+				<th>Due Date</th>
+				<th>Priority</th>
+				<th>Posted By</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+		{% for t in task %}
+			<tr>
+				<td>{{ t.name }}</td>
+				<td>{{ t.due_date }}</td>
+				<td>{{ t.priority }}</td>
+				<td>{{ t.poster.name }}</td>
+				<td>
+					<a href="{{ url_for('tasks.delete_entry',task_id = t.task_id) }}">Delete</a>
+					<a href="{{ url_for('tasks.complete', task_id = t.task_id )}}">Mark as Complete</a>
+				</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+{% endblock %}

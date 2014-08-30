@@ -1,0 +1,753 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"js",
+				"json_results"
+			],
+			[
+				"name",
+				"__name__"
+			],
+			[
+				"error",
+				"errorhandler"
+			],
+			[
+				"re",
+				"render_template"
+			],
+			[
+				"flash",
+				"flash_errors"
+			],
+			[
+				"pos",
+				"posted_date"
+			],
+			[
+				"ree",
+				"redirect"
+			],
+			[
+				"regis",
+				"register"
+			],
+			[
+				"Password",
+				"PasswordField"
+			],
+			[
+				"Pass",
+				"PasswordField"
+			],
+			[
+				"Da",
+				"DataRequired"
+			],
+			[
+				"DA",
+				"DATABASE_PATH"
+			],
+			[
+				"nombre",
+				"nombre_sala"
+			],
+			[
+				"connect",
+				"connect_db"
+			],
+			[
+				"close",
+				"closed_tasks"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"logi",
+				"login_required"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"conver",
+				"convertTemp"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"border-radi",
+				"border-radius"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"border-radius",
+				"border-top-right-radius"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"the",
+				"theme_js"
+			],
+			[
+				"wp_enq",
+				"wp_enqueue_scripts"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"baclg",
+				"background-color"
+			],
+			[
+				"light",
+				"light-gray"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"font-t",
+				"font-weight"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"bord",
+				"border-right"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"cookie",
+				"cookie_username"
+			],
+			[
+				"cooki",
+				"cookie_username"
+			],
+			[
+				"make",
+				"make_pw_hash"
+			],
+			[
+				"new",
+				"new_cookie_val"
+			],
+			[
+				"visi",
+				"visits"
+			],
+			[
+				"coo",
+				"cookie_val"
+			],
+			[
+				"Requ",
+				"required"
+			],
+			[
+				"S",
+				"StringProperty"
+			],
+			[
+				"auto",
+				"auto_now_add"
+			],
+			[
+				"render",
+				"render_blog"
+			],
+			[
+				"rnede",
+				"render_blog"
+			],
+			[
+				"rend",
+				"render_blog"
+			],
+			[
+				"valid",
+				"valid_email"
+			],
+			[
+				"valid_",
+				"valid_password"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"Packag",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"packageCon",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 417.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/bloggy/blog/models.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/bloggy/bloggy/settings.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/bloggy/db.sqlite3",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/bloggy/manage.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/bloggy/bloggy/urls.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/bloggy/bloggy/wsgi.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/hello_world_project/hello_world_project/urls.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/tips for django.txt",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/hello_world_project/hello_world/views.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/hello_world_project/hello_world/urls.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/hello_world_project/hello_world_project/settings.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/hello_world_project/templates/betterhello.html",
+		"/Users/villancikos/Dropbox/Viana/Sitio Web Viana/queries/update_permiteCompra_inventario_0.sql",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/hello_world_project/django_code_tips.txt",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/web2py-rest/applications/socrata/api_terminal.txt",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/web2py-rest/applications/socrata/controllers/default.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/web2py-rest/applications/socrata/socrata.csv",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/web2py-rest/applications/socrata/models/socrata.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/bs_scraping.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/starting web2py server.txt",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/web2py/web2py/spiders/web2py_base.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/web2py/web2py/web2py.json",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/web2py/web2py/settings.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/web2py/web2py/items.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/socrata/socrata/settings.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/socrata/socrata/spiders/socrata_crawl.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/socrata/socrata/pipelines.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2-exercises-master/client-side/socrata/socrata/project.json",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/socrata/socrata/items.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/clientp.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/socrata/socrata/spiders/socrata_base.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/socrata/socrata/exporters.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/socrata/socrata/db.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/wikipedia/wikipedia/spiders/wiki.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/wikipedia/wikipedia/spiders/wiki.json",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/wikipedia/items.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/wikipedia/wikipedia/items.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/wikipedia/wikipedia/spiders/items.json",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/hackernews/hackernews/spiders/spider.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/chapter 3/wikipedia/wikipedia/spiders/wikibase.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/hackernews/hackernews/items.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/hackernews/hackernews/spiders/spider.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/## Basic Scrapping",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/applications/py2manager/controllers/default.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/applications/py2manager/views/default/note.html",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/applications/py2manager/views/default/company.html",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/applications/py2manager/views/default/add.html",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/routes.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/applications/py2manager/routes.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/applications/py2manager/models/db.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/applications/py2manager/static/error.html",
+		"/Users/villancikos/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/applications/py2manager/views/web2py_ajax.html",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/applications/py2manager/views/default/employee.html",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/applications/py2manager/models/menu.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/applications/py2manager/models/db_tasks.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/applications/py2manager/views/default/index.html",
+		"/Users/villancikos/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/py2manager/start/applications/py2manager/views/default/tester.html",
+		"/Users/villancikos/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/Users/villancikos/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/web2py/README.md",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/api_sentiments.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/create_movies_db.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/select_movies.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/api_for_rotten.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/movies.db",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/tweepy_api.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/gmaps_api.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/gdata_api_related_videos.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/parsing_JSON_2.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/parsing_JSON_1.py",
+		"/Users/villancikos/Dropbox/Viana/Proyecto Mesa Credito/req.txt",
+		"/Users/villancikos/Library/Application Support/Sublime Text 3/Packages/User/Colorsublime/themes/Flat_Dark.tmTheme",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/gdata_api.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/post_JSON_to_API.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/sql/book2-exercises/.git/packed-refs",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/env/lib/python2.7/site-packages/setuptools/package_index.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/env/lib/python2.7/site-packages/pip/cmdoptions.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/env/lib/python2.7/site-packages/setuptools/compat.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/env/lib/python2.7/site-packages/easy_install.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-taskr/venv/lib/python2.7/no-global-site-packages.txt",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-hello-world/virtualenv/lib/python2.7/no-global-site-packages.txt",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-blog/venv/lib/python2.7/no-global-site-packages.txt",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-taskr/venv/lib/python2.7/site-packages/setuptools/tests/test_find_packages.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-hello-world/virtualenv/lib/python2.7/site-packages/setuptools/tests/test_find_packages.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-blog/venv/lib/python2.7/site-packages/setuptools/tests/test_find_packages.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/env/lib/python2.7/no-global-site-packages.txt",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/env/lib/python2.7/site-packages/setuptools/tests/test_find_packages.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-taskr/venv/lib/python2.7/site-packages/setuptools/tests/test_packageindex.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-hello-world/virtualenv/lib/python2.7/site-packages/setuptools/tests/test_packageindex.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-blog/venv/lib/python2.7/site-packages/setuptools/tests/test_packageindex.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/env/lib/python2.7/site-packages/setuptools/tests/test_packageindex.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/sql/book2-exercises/web2py/start/applications/admin/static/codemirror/package.json",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/sql/book2-exercises/web2py-rest/applications/admin/static/codemirror/package.json",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/sql/book2-exercises/py2manager/applications/admin/static/codemirror/package.json",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-taskr/venv/lib/python2.7/site-packages/setuptools/package_index.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-hello-world/virtualenv/lib/python2.7/site-packages/setuptools/package_index.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-blog/venv/lib/python2.7/site-packages/setuptools/package_index.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/sql/book2-exercises/py2manager/applications/admin/static/codemirror/theme/the-matrix.css",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/sql/book2-exercises/py2manager/gluon/tests/test_html.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-taskr/test.db",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/env/lib/python2.7/lib-dynload/ColorPicker.so",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/cars.json",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-taskr/venv/lib/python2.7/site-packages/sqlalchemy/dialects/oracle/cx_oracle.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-blog/sql.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/env/lib/python2.7/site-packages/setuptools/svn_utils.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-taskr/venv/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/sql/book2-exercises/py2manager/gluon/contrib/login_methods/loginradius_account.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-taskr/venv/lib/python2.7/site-packages/fabric/colors.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/env/lib/python2.7/site-packages/pkg_resources.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/sql/book2-exercises/py2manager/applications/py2manager/databases/c8b669d15150d7109e5f7ab36744a5b7_auth_cas.table",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/parsing_xml3.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/cars.xml",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/parsing2.py",
+		"/Users/villancikos/Desktop/untitled.xml",
+		"/Users/villancikos/Desktop/AutorizadorPagare.wsdl",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/client-side/clientd.py",
+		"/Users/villancikos/Dropbox/Viana/RackSpace/reunion tecnica rackspace.txt",
+		"/Users/villancikos/Library/Logs/Microsoft-Lync-0.log",
+		"/Users/villancikos/AT.postflight.1152",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/flastk-st",
+		"/Users/villancikos/Library/Application Support/Sublime Text 3/Installed Packages/Theme - Flatland.sublime-package",
+		"/Users/villancikos/Library/Application Support/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/a1.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/flask-taskr/app/views.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/flask-taskr/test.py",
+		"/Users/villancikos/Google_Drive/Learning_Shit/Python/flask-taskr/test_tasks.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/flask-taskr/app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"templa",
+			"r2",
+			" views",
+			"name",
+			"Name",
+			"name",
+			"views",
+			"project_form",
+			"comment",
+			"element",
+			"<s:element name",
+			"<s:element na",
+			",<br>",
+			"syntax",
+			" =",
+			"new_id",
+			"route",
+			"debug",
+			"app.register",
+			"__name__",
+			"logout",
+			"regis",
+			"new_task",
+			"{% ",
+			"Login",
+			"LoginForm",
+			"aula x",
+			"\\xe2",
+			"\\xe",
+			"ex",
+			"choice",
+			"*kwa",
+			"h3",
+			"viaducto",
+			"via",
+			"viaduc",
+			"Uni",
+			"Univ",
+			"Univer",
+			"san cosme",
+			"san co",
+			"rojo",
+			"iztapal",
+			"matriz",
+			"cien me",
+			"cien",
+			"camar",
+			"55",
+			"<form ",
+			"icon",
+			"li",
+			"ol",
+			"ol ",
+			"img",
+			"<form",
+			"form",
+			"<form>",
+			"</form>",
+			"#",
+			"inst",
+			"instalaciones",
+			"Quienes",
+			"..",
+			"(\"../",
+			"Somos",
+			"200px",
+			"10",
+			"apq",
+			"section",
+			"			</",
+			"img",
+			"*,",
+			"logo",
+			"  \n",
+			"feat",
+			"featu",
+			"sha",
+			"hide",
+			"main-nav",
+			"feat",
+			"feature",
+			"feat",
+			"featur",
+			"featured",
+			"featu",
+			"featured",
+			"info",
+			".info",
+			"http",
+			"{ ",
+			"berlin",
+			"campes",
+			"content:\"\\2192\";",
+			"a:hover",
+			"tab",
+			"content",
+			"BRLNSDB",
+			"BRLNSDB\nBRLNSDB\nBRLNSDB",
+			"BRLNSR",
+			"brln",
+			".BRLNSR",
+			"BRLNSR",
+			"BRLNSDB",
+			"after",
+			"feat",
+			"hide",
+			"border-radi",
+			"border-",
+			"h1",
+			"1",
+			"margi",
+			"padd",
+			"nav",
+			"background",
+			"menu",
+			"social",
+			"top",
+			"nav",
+			"menu cf",
+			"box-s",
+			"box-siz",
+			"lato",
+			"author",
+			".the-aut",
+			"header",
+			"header-bo",
+			".header",
+			"$to"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"<br>",
+			"</a>\n",
+			"</a>\n\n",
+			"</solicitud>\n",
+			"</solicitud\n\n",
+			"\"/product_images/uploaded_images/",
+			"\"product_images/uploaded_images/",
+			"",
+			"<li class=\"vig-ropa\">&#8291;</li>",
+			"<li class=\"vig-ropa\">:</li>",
+			"<li class=\"vig-ropa\"></li>",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 394.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "/Users/villancikos/Google_Drive/Learning_Shit/Python/RealPython/book2/django/bloggy.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"colo",
+				"env/lib/python2.7/lib-dynload/ColorPicker.so"
+			],
+			[
+				"",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+		],
+		"width": 424.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 163.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,11 @@
+## Commiting changes to Github ##
+git add .
+git commit -am "message"
+git push origin master
+
+
+## Creating and activating Virtual environments ##
+## 1. Navigate to desired directory 
+## 2. Run: virtualenv --no-site-packages env 
+## by using --no-site-packages this will create a truly isolated environment
+## 3. activate environment by runing source env/bin/activate

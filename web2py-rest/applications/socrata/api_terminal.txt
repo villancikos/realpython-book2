@@ -1,0 +1,37 @@
+import requests
+### GET Requests
+r = requests.get('http://127.0.0.1:8000/socrata/default/api/socrata/id/1.json')
+print r
+r.content
+
+r2 = requests.get('http://127.0.0.1/socrata/default/api/socrata/id/100/name.json')
+print r2
+r2.content
+
+r3 = requests.get('http://127.0.0.1/socrata/default/api/socrata/id/100/views.json')
+print r3
+r3.content
+
+### POST Requests
+payload = {'name':'new database','url':'http://new.com/','views':'22'}
+r4 = requests.post('http://127.0.0.1/socrata/default/api/socrata.json',payload)
+r4
+
+### PUT Requests
+payload = {'name':'new database'}
+r5 = requests.put('http://127.0.0.1:8000/socrata/default/api/socrata/3.json',payload)
+
+r5
+
+r6 = requests.get('http://127.0.0.1:8000/socrata/default/api/socrata/3/name.json')
+
+r6.content
+
+
+### DELETE Requests
+r7 = requests.delete('http://127.0.0.1:8000/socrata/default/api/socrata/3.json')
+r7
+
+r8 = requests.get('http://127.0.0.1:8000/socrata/default/api/socrata/3.json')
+
+r8.content

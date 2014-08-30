@@ -1,0 +1,24 @@
+Basic Workflow for Django Project and Application
+
+Creating a Project:
+
+python django-admin.py startproject <name_of_the_project>
+
+(this create the Project in a new directory)
+migrate the database python manage.py migrate
+
+
+Creating an App:
+1. python manage.py startapp <name_of_the_app>
+2. Add the name of the app to INSTALLED_APPS in settings.py
+(so django knows that the app exists)
+3. link app url to main urls within Projects urls.py file
+4. Add views to the app views.py file
+5. add urls.py file in app dir to map views to specific urls
+6. Create template dir, update paths in settings.py and add templates
+
+
+####################################################################################
+
+WorkflowBefore moving on, let’s take a look at the basic workflow used for creating a Django Project and Application:Creating a Project1. Runpythondjango-admin.pystartproject<name_of_the_project>tocre- ate a new Project. This will create the Project in a new directory. Enter that new direc- tory.2. Migratethedatabase:pythonmanage.pymigrateCreating an application1. Run,pythonmanage.pystartapp<name_of_the_app>.2. AddthenameoftheapptotheINSTALLED_APPStuplewithinsettings.pyfilesothatDjango knows that the new app exists.3. LinktheapplicationurlstothemainurlswithintheProject’surls.pyfile.4. Addtheviewstotheapplication’sviews.pyfile.506
+5. Add a urls.py file within the new application’s directory to map the views to specific URLs.6. Create a “templates” directory, update the paths in the “settings.py” file, and finally add any templates.The above workflow is used in a number of Django tutorials and projects. Keep in mind, that there are a number of workflows you could follow/employ resulting in a number of different project structures.

@@ -1,0 +1,1 @@
+python web2py.py -a 'PUT_YOUR_PASSWORD_HERE' -i 127.0.0.1 -p 8000

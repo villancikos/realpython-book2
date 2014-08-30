@@ -1,0 +1,16 @@
+Basic Workflow for Django Project and Application
+
+Creating a Project:
+
+python django-admin.py startproject <name_of_the_project>
+
+(this create the Project in a new directory)
+
+Creating an App:
+1. python manage.py startapp <name_of_the_app>
+2. Add the name of the app to INSTALLED_APPS in settings.py
+(so django knows that the app exists)
+3. link app url to main urls within Projects urls.py file
+4. Add views to the app views.py file
+5. add urls.py file in app dir to map views to specific urls
+6. Create template dir, update paths in settings.py and add templates

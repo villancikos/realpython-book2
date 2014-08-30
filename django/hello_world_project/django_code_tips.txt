@@ -1,0 +1,7 @@
+To create a new basic project layout type
+django-admin.py startproject "NAME_OF_PROJECT"
+
+by typing just
+django-admin.py
+this displays all available commands that can be performed with django-admin.py
+

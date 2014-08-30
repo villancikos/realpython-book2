@@ -1,0 +1,25 @@
+## Basic Scrapping
+
+# Using the scrapy shell serves for testing xpath expresions:
+scrapy shell <url>
+
+...
+
+scrapy shell http://news.ycombinator.com
+
+
+response.xpath('//td[@class="title"]').extract()
+
+response.xpath('//td[@class="title"]').extract()[0]
+
+response.xpath('//td[@class="title"]/a').extract()[0]
+
+response.xpath('//td[@class="title"]/a/text()').extract()[0]
+
+response.xpath('//td[@class="title"]/a/@href').extract()[0]
+
+response.xpath('//span[@class=yclinks"]/a[3]/@href').extract() <-- library link at the bottom of Hacker News
+
+response.xpath('//td[@class="subtext"]/a/@href').extract()[0] <-- comment links
+
+response.xpath('//td[@class="subtext"]/a/text()').extract()[0] <-- comment links
