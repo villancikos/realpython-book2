@@ -1,7 +1,7 @@
 from django import forms
 from blog.models import Post
 
-class PostForm(forms.Form):
+class PostForm(forms.ModelForm):
     created_at = forms.DateTimeField(widget=forms.HiddenInput(), required=False)
     title = forms.CharField(max_length = 100)
     content = forms.CharField(widget=forms.Textarea())
@@ -9,6 +9,6 @@ class PostForm(forms.Form):
     image = forms.ImageField(required = False)
     views = forms.IntegerField(widget = forms.HiddenInput(), initial = 0)
 
-class Meta:
-    model = Post
-    fields = ['created_at', 'title', 'content', 'tag', 'image', 'views']
+    class Meta:
+        model = Post
+        fields = ['created_at', 'title', 'content', 'tag', 'image', 'views']
