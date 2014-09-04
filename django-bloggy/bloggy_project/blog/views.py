@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.http import HttpResponse,HttpResponseRedirect
 from blog.models import Post
 from blog.forms import PostForm
 from django.template import Context, loader, RequestContext
@@ -46,7 +46,9 @@ def add_post(request):
         form = PostForm(request.POST, request.FILES)
         if form.is_valid(): # is the form valid?
             form.save(commit = True) # yes? save to database
-            return redirect(index)
+            # print request.POST.items()
+            post_title = request.POST['title']
+            return HttpResponse(post(request,post_title))
         else:
             print form.errors # no? Display errors to end user
     else:
