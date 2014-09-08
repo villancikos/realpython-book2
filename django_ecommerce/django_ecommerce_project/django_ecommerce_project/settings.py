@@ -1,9 +1,11 @@
 import os
 
-PROJECT_ROOT = os.path.realpath(os.path.dirname(__file__))
+PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))#os.path.realpath(os.path.dirname(__file__))
 SITE_ROOT = os.path.dirname(PROJECT_ROOT)
 TEMPLATE_DIRS = (os.path.join(SITE_ROOT, 'templates'),)
 print TEMPLATE_DIRS
+print "hola"
+print "############################"
 # Django settings for django_ecommerce_project project.
 
 
