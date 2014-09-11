@@ -1,12 +1,8 @@
 import os
 
-PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))#os.path.realpath(os.path.dirname(__file__))
+PROJECT_ROOT = os.path.realpath(os.path.dirname(__file__))
 SITE_ROOT = os.path.dirname(PROJECT_ROOT)
-# TEMPLATE_DIRS = (os.path.join(SITE_ROOT, 'templates'),)
-# print TEMPLATE_DIRS
-# print "hola"
-# print "############################"
-# Django settings for django_ecommerce_project project.
+TEMPLATE_DIRS = (os.path.join(SITE_ROOT, 'templates'),)
 
 
 DEBUG = True
@@ -115,14 +111,6 @@ ROOT_URLCONF = 'django_ecommerce_project.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'django_ecommerce_project.wsgi.application'
-
-TEMPLATE_DIRS = (
-                 os.path.join(SITE_ROOT, 'templates'),
-    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
-
-)
 
 INSTALLED_APPS = (
     'django.contrib.auth',
