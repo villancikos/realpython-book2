@@ -9,33 +9,19 @@ class PaymentForm(forms.Form):
 
 class SigninForm(PaymentForm):
     email = forms.EmailField(required = True)
-    password = forms.CharField(
-       required=True, widget=forms.PasswordInput(render_value=False)
-    )
+    password = forms.CharField(required=True, widget=forms.PasswordInput(render_value=False))
 
 class CardForm(PaymentForm):
-    last_4_digits = forms.CharField(
-                required=True,
-                min_length = 4,
-                max_length = 4,
-                widget=forms.HiddenInput()
-    )
+    last_4_digits = forms.CharField(required=True,min_length = 4,max_length = 4,widget=forms.HiddenInput())
     stripe_token = forms.CharField(required=True, widget=forms.HiddenInput())
 
 
 class UserForm(CardForm):
     name = forms.CharField(required=True)
     email = forms.EmailField(required=True)
-    password = forms.CharField(
-               required = True,
-               label=(u'Password'),
-               widget = forms.PasswordInput(render_value = False)
-               )
-    ver_password = forms.CharField(
-               required = True,
-               label=(u'Verify Password'),
-               widget = forms.PasswordInput(render_value = False)
-               )
+    password = forms.CharField(required = True,label=(u'Password'),widget = forms.PasswordInput(render_value = False))
+    ver_password = forms.CharField(required = True,label=(u'Verify Password'),widget = forms.PasswordInput(render_value = False))
+
     def clean(self):
         cleaned_data = self.cleaned_data
         password = cleaned_data.get('password')
