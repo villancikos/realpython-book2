@@ -5,6 +5,9 @@ PROJECT_ROOT = os.path.realpath(os.path.dirname(__file__))
 SITE_ROOT = os.path.dirname(PROJECT_ROOT)
 TEMPLATE_DIRS = (os.path.join(SITE_ROOT, 'templates'),)
 
+STRIPE_SECRET = 'sk_test_kAQnkGKkyqTBWDUEf3U6Byk7'
+STRIPE_PUBLISHABLE ='pk_test_MSzW0dnjzTePsfxb4GLm0ajz'
+
 
 
 DEBUG = True
@@ -156,6 +159,3 @@ LOGGING = {
         },
     }
 }
-
-STRIPE_SECRET = 'sk_test_kAQnkGKkyqTBWDUEf3U6Byk7'
-STRIPE_PUBLISHABLE ='pk_test_MSzW0dnjzTePsfxb4GLm0ajz'
